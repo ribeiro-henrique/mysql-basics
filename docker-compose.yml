@@ -7,8 +7,6 @@ services:
     image: node:16
     # Usuário linux padrão do container, não é recomendado usar root
     # https://github.com/nodejs/docker-node/blob/main/docs/BestPractices.md#non-root-user
-    # opaa
-
     user: node
     # Nome do container para facilitar execução
     container_name: all_for_one
